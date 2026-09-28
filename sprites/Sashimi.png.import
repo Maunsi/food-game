@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6x551lvd143n"
-path="res://.godot/imported/1790620944733.png-67d38e1ef3ce547789277766e5b6aafa.ctex"
+path="res://.godot/imported/Sashimi.png-d0ece4ffbfa06c267cd2e633778ec73c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://1790620944733.png"
-dest_files=["res://.godot/imported/1790620944733.png-67d38e1ef3ce547789277766e5b6aafa.ctex"]
+source_file="res://sprites/Sashimi.png"
+dest_files=["res://.godot/imported/Sashimi.png-d0ece4ffbfa06c267cd2e633778ec73c.ctex"]
 
 [params]
 
