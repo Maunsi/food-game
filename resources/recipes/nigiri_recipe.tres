@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Recipe" format=3 uid="uid://dik02ga7mktk4"]
+
+[ext_resource type="Script" uid="uid://dhwj8m7i6v3x6" path="res://scripts/ingredient.gd" id="1_chpji"]
+[ext_resource type="Script" uid="uid://dh15wa7wcinnm" path="res://scripts/recipe.gd" id="2_1ty3v"]
+[ext_resource type="Resource" uid="uid://dvsau1nfeybl" path="res://resources/ingredients/fish.tres" id="2_ohpqo"]
+[ext_resource type="Resource" uid="uid://t2kx256pf2m7" path="res://resources/ingredients/rice.tres" id="3_s5wm2"]
+[ext_resource type="Resource" uid="uid://cxdy6fusupidy" path="res://resources/dishes/nigiri.tres" id="4_m0cwq"]
+
+[resource]
+script = ExtResource("2_1ty3v")
+input_ingredients = Array[ExtResource("1_chpji")]([ExtResource("2_ohpqo"), ExtResource("3_s5wm2")])
+output_dish = ExtResource("4_m0cwq")
+metadata/_custom_type_script = "uid://dh15wa7wcinnm"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Ingredient" format=3 uid="uid://dvsau1nfeybl"]
+
+[ext_resource type="Script" uid="uid://ku6ecngf0sp7" path="res://flavour.gd" id="1_cmv6p"]
+[ext_resource type="Script" uid="uid://dhwj8m7i6v3x6" path="res://scripts/ingredient.gd" id="2_awjr7"]
+[ext_resource type="Texture2D" uid="uid://c1j6qclgkr2uk" path="res://icon.svg" id="3_qmubr"]
+
+[sub_resource type="Resource" id="Resource_tc03o"]
+script = ExtResource("1_cmv6p")
+metadata/_custom_type_script = "uid://ku6ecngf0sp7"
+
+[resource]
+script = ExtResource("2_awjr7")
+texture = ExtResource("3_qmubr")
+flavour = SubResource("Resource_tc03o")
+metadata/_custom_type_script = "uid://dhwj8m7i6v3x6"
