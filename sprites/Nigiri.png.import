@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ch7bmwj83lpgg"
-path="res://.godot/imported/Bowl of rice.png-4343119f8105c5050c63f8718ca27b9b.ctex"
+uid="uid://cghwx8hbglyeq"
+path="res://.godot/imported/Nigiri.png-2169afd929b41e0b16a37329e283df64.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Bowl of rice.png"
-dest_files=["res://.godot/imported/Bowl of rice.png-4343119f8105c5050c63f8718ca27b9b.ctex"]
+source_file="res://sprites/Nigiri.png"
+dest_files=["res://.godot/imported/Nigiri.png-2169afd929b41e0b16a37329e283df64.ctex"]
 
 [params]
 

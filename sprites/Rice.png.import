@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cghwx8hbglyeq"
-path="res://.godot/imported/Niguiri.png-45705fb54212c2f1aa3f69c827623e07.ctex"
+uid="uid://b331k35rwofxw"
+path="res://.godot/imported/Rice.png-c6b821f0179918335f29d1b560b7892f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Niguiri.png"
-dest_files=["res://.godot/imported/Niguiri.png-45705fb54212c2f1aa3f69c827623e07.ctex"]
+source_file="res://sprites/Rice.png"
+dest_files=["res://.godot/imported/Rice.png-c6b821f0179918335f29d1b560b7892f.ctex"]
 
 [params]
 

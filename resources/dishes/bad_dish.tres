@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Dish" format=3 uid="uid://cvsr2708iq2r0"]
+
+[ext_resource type="Script" uid="uid://ku6ecngf0sp7" path="res://flavour.gd" id="1_j2ysi"]
+[ext_resource type="Script" uid="uid://dufp4mlrdx51w" path="res://scripts/dish.gd" id="2_85bcn"]
+[ext_resource type="Texture2D" uid="uid://c1j6qclgkr2uk" path="res://icon.svg" id="3_j2ysi"]
+
+[sub_resource type="Resource" id="Resource_ssx0k"]
+script = ExtResource("1_j2ysi")
+sweet = 1
+salty = 1
+umami = 1
+metadata/_custom_type_script = "uid://ku6ecngf0sp7"
+
+[resource]
+script = ExtResource("2_85bcn")
+texture = ExtResource("3_j2ysi")
+flavour = SubResource("Resource_ssx0k")
+is_final = true
+metadata/_custom_type_script = "uid://dufp4mlrdx51w"

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Ingredient" format=3 uid="uid://t2kx256pf2m7"]
+
+[ext_resource type="Script" uid="uid://ku6ecngf0sp7" path="res://flavour.gd" id="1_rf05d"]
+[ext_resource type="Script" uid="uid://dhwj8m7i6v3x6" path="res://scripts/ingredient.gd" id="2_6qnbx"]
+
+[sub_resource type="Resource" id="Resource_i3fa8"]
+script = ExtResource("1_rf05d")
+sweet = 1
+salty = 1
+metadata/_custom_type_script = "uid://ku6ecngf0sp7"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1y2dk"]
+load_path = "res://.godot/imported/Rice.png-c6b821f0179918335f29d1b560b7892f.ctex"
+
+[resource]
+script = ExtResource("2_6qnbx")
+texture = SubResource("CompressedTexture2D_1y2dk")
+flavour = SubResource("Resource_i3fa8")
+metadata/_custom_type_script = "uid://dhwj8m7i6v3x6"
