@@ -1,6 +1,72 @@
 [gd_scene format=3 uid="uid://dmmcaipkysrq1"]
 
 [ext_resource type="Script" uid="uid://bcp6a7v2dygdt" path="res://scripts/main.gd" id="1_o5qli"]
+[ext_resource type="Texture2D" uid="uid://cw1m4lwlnw1em" path="res://sprites/empty_flavour_bar.png" id="2_sugp2"]
+[ext_resource type="Texture2D" uid="uid://rv1golmq8c40" path="res://sprites/filled_flavour_bar.png" id="3_jyhfs"]
 
 [node name="Main" type="Node2D" unique_id=678464153]
 script = ExtResource("1_o5qli")
+
+[node name="FlavourPanel" type="VBoxContainer" parent="." unique_id=881316607]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Sweet" type="HBoxContainer" parent="FlavourPanel" unique_id=632469084]
+layout_mode = 2
+
+[node name="Bar" type="TextureProgressBar" parent="FlavourPanel/Sweet" unique_id=1307090558]
+layout_mode = 2
+texture_under = ExtResource("2_sugp2")
+texture_progress = ExtResource("3_jyhfs")
+tint_progress = Color(0.84313726, 0.48235294, 0.7294118, 1)
+
+[node name="Sweet" type="Label" parent="FlavourPanel/Sweet" unique_id=1802660744]
+layout_mode = 2
+
+[node name="Salty" type="HBoxContainer" parent="FlavourPanel" unique_id=2050222770]
+layout_mode = 2
+
+[node name="Bar" type="TextureProgressBar" parent="FlavourPanel/Salty" unique_id=2027823850]
+layout_mode = 2
+texture_under = ExtResource("2_sugp2")
+texture_progress = ExtResource("3_jyhfs")
+tint_progress = Color(0.37254903, 0.8039216, 0.89411765, 1)
+
+[node name="Salty" type="Label" parent="FlavourPanel/Salty" unique_id=22744714]
+layout_mode = 2
+
+[node name="Sour" type="HBoxContainer" parent="FlavourPanel" unique_id=364722640]
+layout_mode = 2
+
+[node name="Bar" type="TextureProgressBar" parent="FlavourPanel/Sour" unique_id=1524370325]
+layout_mode = 2
+texture_under = ExtResource("2_sugp2")
+texture_progress = ExtResource("3_jyhfs")
+tint_progress = Color(0.9843137, 0.9490196, 0.21176471, 1)
+
+[node name="Sour" type="Label" parent="FlavourPanel/Sour" unique_id=122212996]
+layout_mode = 2
+
+[node name="Bitter" type="HBoxContainer" parent="FlavourPanel" unique_id=619804943]
+layout_mode = 2
+
+[node name="Bar" type="TextureProgressBar" parent="FlavourPanel/Bitter" unique_id=882543600]
+layout_mode = 2
+texture_under = ExtResource("2_sugp2")
+texture_progress = ExtResource("3_jyhfs")
+tint_progress = Color(0.93333334, 0.7647059, 0.6039216, 1)
+
+[node name="Bitter" type="Label" parent="FlavourPanel/Bitter" unique_id=436471269]
+layout_mode = 2
+
+[node name="Umami" type="HBoxContainer" parent="FlavourPanel" unique_id=2011641034]
+layout_mode = 2
+
+[node name="Bar" type="TextureProgressBar" parent="FlavourPanel/Umami" unique_id=1617685738]
+layout_mode = 2
+texture_under = ExtResource("2_sugp2")
+texture_progress = ExtResource("3_jyhfs")
+tint_progress = Color(0.8509804, 0.34117648, 0.3882353, 1)
+
+[node name="Umami" type="Label" parent="FlavourPanel/Umami" unique_id=155558094]
+layout_mode = 2
